@@ -32,15 +32,20 @@ h2 {
 
 .bg-info {
   border-radius: 10px;
+  border: 1px solid grey;
 }
 
 .panel {
   background-color: rgba(229, 229, 227, 0.6);
   border-radius: 10px;
+  border: 2px solid black;
+
 }
 
 .panel-heading {
   border-radius: 10px;
+  border: 2px solid black;
+
 }
 
 /*IDs*/
@@ -61,6 +66,7 @@ h2 {
 #painting {
   display: block;
   margin: auto;
+  border: 3px solid black;
   border-radius: 25%;
   width: 28%;
   padding: 0px;
@@ -68,6 +74,7 @@ h2 {
 
 #intro {
   background-color: rgba(116,0,1,0.5);
+  border: 2px solid black;
   border-radius: 10px;
   padding: 5px 0px 5px 0px;
 }
@@ -109,30 +116,35 @@ h2 {
 #project1 {
   background-color: rgba(204, 255, 204, 0.5);
   margin: 0px 10px 0px 15px;
-  border-color: grey;
+  border: 2px solid black;
+
 }
 
 #project2 {
   background-color: rgba(204, 230, 255, 0.5);
-  border-color: grey;
+  border: 2px solid black;
+
 }
 
 #project3 {
   background-color: rgba(255, 255, 153, 0.5);
   margin: 0px 10px 0px 15px;
-  border-color: grey;
+  border: 2px solid black;
 }
 
 #islandpic {
   border-radius: 10px;
+  border: 1px solid grey;
 }
 
 #norwaypic {
   border-radius: 10px;
+  border: 1px solid grey;
 }
 
 #wikipic {
   border-radius: 10px;
+  border: 1px solid grey;
 }
 
 /*About Me IDs*/
@@ -153,6 +165,7 @@ h2 {
 
 #psupic {
   border-radius: 15px;
+  border: 1px solid grey;
 }
 
 #lake {
@@ -164,6 +177,7 @@ h2 {
 
 #lake-pic {
   border-radius: 15%;
+  border: 1px solid grey;
 }
 
 #logo {
@@ -176,6 +190,7 @@ h2 {
 
 #logopic {
   border-radius: 15%;
+  border: 1px solid grey;
 }
 
 #motorbike {
@@ -187,6 +202,7 @@ h2 {
 
 #bikepic {
   border-radius: 15px;
+  border: 1px solid grey;
 }
 
 /*Bottom of page footer*/
