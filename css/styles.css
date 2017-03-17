@@ -15,22 +15,12 @@ body {
   font-family: 'Arvo' sans-serif;
 }
 
-.jumbotron > img {
-  text-align: center;
-  max-width: 300px;
-  max-height: auto;
-  border: 1px solid black;
-}
-
-#painting {
-  display: block;
-  margin: auto;
-}
 
 .jumbotron {
   text-align: center;
   color: #ffb366;
   background-color: rgba(0, 0, 0, 0.3);
+  text-shadow: black -1px 1px;
 }
 
 .panel {
@@ -70,19 +60,8 @@ img {
   height: auto;
 }
 
-h1 {
-  text-shadow: black -1px 1px;
-}
-
 h2 {
   text-align: center;
-  text-shadow: black -1px 1px;
-}
-
-h3 {
-  padding-left: 17%;
-  color: rgb(255, 255, 255);
-  text-shadow: black -1px 1px;
 }
 
 #project1 {
@@ -111,6 +90,22 @@ h3 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+#aboutme {
+  text-shadow: black -1px 1px;
+  padding-left: 17%;
+  color: rgb(255, 255, 255);
+}
+
+#painting {
+  display: block;
+  margin: auto;
+  border-radius: 25%;
+  width: 28%;
+  padding: 0px;
+}
+
+
 
 
 /** {
