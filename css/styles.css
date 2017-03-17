@@ -70,15 +70,19 @@ img {
   height: auto;
 }
 
-
+h1 {
+  text-shadow: black -1px 1px;
+}
 
 h2 {
   text-align: center;
+  text-shadow: black -1px 1px;
 }
 
 h3 {
   padding-left: 17%;
   color: rgb(255, 255, 255);
+  text-shadow: black -1px 1px;
 }
 
 #project1 {
