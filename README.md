@@ -12,6 +12,7 @@ _This is a single webpage for my personal portfolio. It goes over my recent proj
 
 * _Ensure internet connection_
 * _Open Terminal_
+* _Change into the desktop directory ('cd desktop')_
 * _Run "git clone https://github.com/gravytates/portfolio.git"_
 * _Open 'portfolio' folder_
 * _Open 'index.html' file_

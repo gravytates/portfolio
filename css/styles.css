@@ -1,71 +1,4 @@
-#background {
-  background-image: url(../img/forest.jpg);
-  background-size: cover;
-   height: 100%;
-   width: 100%;
-   top: 0;
-   left: 0;
-   background-position: center center;
-   background-repeat: no-repeat;
-   position: fixed;
-   z-index: -1;
-}
-
-.jumbotron {
-  text-align: center;
-  color: #eeba30;
-  background-color: rgba(0, 0, 0, 0.3);
-  text-shadow: black -1px 1px;
-}
-
-.well {
-  border-radius: 20px;
-}
-
-.panel {
-  background-color: rgba(229, 229, 227, 0.6);
-  border-radius: 10px;
-}
-
-.panel-heading {
-  border-radius: 10px;
-}
-
-.panel-body > #psu {
-  float: left;
-  max-width: 250px;
-  height: auto;
-  display: block;
-  border-radius: 20px;
-}
-
-#psupic {
-  border-radius: 15px;
-}
-
-.panel-body > #lake {
-  float: right;
-  max-width: 215px;
-  height: auto;
-  display: block;
-}
-
-#lake-pic {
-  border-radius: 15%;
-}
-
-
-
-.panel-body > #motorbike {
-  float: right;
-  max-width: 320px;
-  height: auto;
-  display: block;
-}
-
-#bikepic {
-  border-radius: 15px;
-}
+/*Elements*/
 
 img {
   display: block;
@@ -78,8 +11,75 @@ h2 {
   text-align: center;
 }
 
+/*Classes*/
+
+.jumbotron {
+  text-align: center;
+  color: #eeba30;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-shadow: black -1px 1px;
+}
+
+.intro {
+  text-align: center;
+  padding: 0% 25% 0% 25%;
+  color: 	#ffc425;
+}
+
+.well {
+  border-radius: 20px;
+}
+
 .bg-info {
   border-radius: 10px;
+}
+
+.panel {
+  background-color: rgba(229, 229, 227, 0.6);
+  border-radius: 10px;
+}
+
+.panel-heading {
+  border-radius: 10px;
+}
+
+/*IDs*/
+
+#background {
+  background-image: url(../img/forest.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: -1;
+}
+
+#painting {
+  display: block;
+  margin: auto;
+  border-radius: 25%;
+  width: 28%;
+  padding: 0px;
+}
+
+#intro {
+  background-color: rgba(116,0,1,0.5);
+  border-radius: 10px;
+  padding: 5px 0px 5px 0px;
+}
+
+
+/*My Projects IDs*/
+
+#myprojects {
+  text-shadow: black -1px 1px;
+  text-align: left;
+  padding-left: 4%;
+  color: rgb(255, 255, 255);
 }
 
 #island {
@@ -135,6 +135,37 @@ h2 {
   border-radius: 10px;
 }
 
+/*About Me IDs*/
+
+#aboutme {
+  text-shadow: black -1px 1px;
+  padding-left: 17%;
+  color: rgb(255, 255, 255);
+}
+
+#psu {
+  float: left;
+  max-width: 250px;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+#psupic {
+  border-radius: 15px;
+}
+
+#lake {
+  float: right;
+  max-width: 215px;
+  height: auto;
+  display: block;
+}
+
+#lake-pic {
+  border-radius: 15%;
+}
+
 #logo {
   float: left;
   max-width: 200px;
@@ -147,43 +178,25 @@ h2 {
   border-radius: 15%;
 }
 
-#aboutme {
-  text-shadow: black -1px 1px;
-  padding-left: 17%;
-  color: rgb(255, 255, 255);
-}
-
-#painting {
+#motorbike {
+  float: right;
+  max-width: 320px;
+  height: auto;
   display: block;
-  margin: auto;
-  border-radius: 25%;
-  width: 28%;
-  padding: 0px;
 }
 
-#myprojects {
-  text-shadow: black -1px 1px;
-  text-align: left;
-  padding-left: 4%;
-  color: rgb(255, 255, 255);
+#bikepic {
+  border-radius: 15px;
 }
+
+/*Bottom of page footer*/
 
 #foot {
   color: lightgrey;
   text-align: center;
 }
 
-#intro {
-  background-color: rgba(116,0,1,0.5);
-  border-radius: 10px;
-  padding: 5px 0px 5px 0px;
-}
-
-.intro {
-  text-align: center;
-  padding: 0% 25% 0% 25%;
-  color: 	#ffc425;
-}
+/*Media Query (padding control)*/
 
 @media screen and (max-width: 700px) {
     #aboutme {
