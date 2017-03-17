@@ -86,12 +86,24 @@ h2 {
   padding-left: 8%;
 }
 
+#islandfoot {
+  text-align: center;
+}
+
 #norway {
   padding-left: 8%;
 }
 
+#norwayfoot {
+  text-align: center;
+}
+
 #wiki {
   padding-left: 8%;
+}
+
+#wikifoot {
+  text-align: center;
 }
 
 #project1 {
