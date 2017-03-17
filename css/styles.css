@@ -1,0 +1,16 @@
+body {
+  font-family: 'Arvo' sans-serif;
+}
+.jumbotron {
+  text-align: center;
+}
+
+.me {
+  display: block;
+  border-radius: 5px 20px 5px;
+  padding: 0px;
+}
+
+* {
+  border: 2px solid black;
+}
