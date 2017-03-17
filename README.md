@@ -22,13 +22,13 @@ _There are no known bugs at this time._
 
 ## Support and contact details
 
-_Please contact Grady Shelton at gradyish@gmail.com if you have any questions or need any support._
+_Please contact Grady L Shelton at gradyish@gmail.com if you have any questions or need any support._
 
 ## Technologies Used
 
-_Webpage is built with HTML and CSS, specifically with the bootstrap.css file/framework, and an additional custom css file. Many photos are links to external websites. Empty columns are used to create appropriate spacing in the 'about me' section. Grady L Shelton and Epicodus are not liable for anything which happens beyond portfolio.index.html webpage._
+_Webpage is built with HTML and CSS, specifically with the bootstrap.css file/framework, and an additional custom css file. Majority of photos link to external websites. Empty columns are used to create appropriate spacing in the 'about me' section. Grady L Shelton and Epicodus are not liable for anything beyond the portfolio.index.html webpage._
 
 ### License
 
-Copyright (c) 2017 Grady L Shelton
+Copyright (c) 2017 Grady L Shelton.
 This software is licensed under the MIT license.
