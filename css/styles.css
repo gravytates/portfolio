@@ -11,17 +11,11 @@
    z-index: -1;
 }
 
-/*body {
-  font-family: 'Arvo' serif;
-}*/
-
-
 .jumbotron {
   text-align: center;
   color: #eeba30;
   background-color: rgba(0, 0, 0, 0.3);
   text-shadow: black -1px 1px;
-  /*font-family: 'Arvo' serif;*/
 }
 
 .well {
