@@ -28,6 +28,8 @@ h2 {
 
 .well {
   border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .bg-info {
@@ -89,60 +91,34 @@ h2 {
   color: rgb(255, 255, 255);
 }
 
-#island {
+.project-head {
   padding-left: 8%;
 }
 
-#islandfoot {
+.project-foot {
   text-align: center;
 }
 
-#norway {
-  padding-left: 8%;
-}
-
-#norwayfoot {
-  text-align: center;
-}
-
-#wiki {
-  padding-left: 8%;
-}
-
-#wikifoot {
-  text-align: center;
-}
-
-#project1 {
+#project-left {
   background-color: rgba(204, 255, 204, 0.5);
   margin: 0px 10px 0px 15px;
   border: 1px solid black;
 
 }
 
-#project2 {
+#project-center {
   background-color: rgba(204, 230, 255, 0.5);
   border: 1px solid black;
 
 }
 
-#project3 {
+#project-right {
   background-color: rgba(255, 255, 153, 0.5);
   margin: 0px 10px 0px 15px;
   border: 1px solid black;
 }
 
-#islandpic {
-  border-radius: 10px;
-  border: 1px solid grey;
-}
-
-#norwaypic {
-  border-radius: 10px;
-  border: 1px solid grey;
-}
-
-#wikipic {
+.project-pic {
   border-radius: 10px;
   border: 1px solid grey;
 }
@@ -219,10 +195,3 @@ h2 {
         padding-left: 4%;
     }
 }
-
-
-/*
-
-*{
-border: 1px solid black;
-}*/
