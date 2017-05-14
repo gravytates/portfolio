@@ -5,12 +5,12 @@
 #### By _Grady L Shelton_
 
 ## Description
-Visit the site here: gravytates.github.io/portfolio
+Visit the site here: https://gravytates.github.io/portfolio
 _This is a single webpage for my personal portfolio. It goes over my recent projects, and includes an about me section highlighting my past education, work experience, my decision to enter programming, and outside interests. It was built under the bootstrap.css framework and utilizes some of its more prominent classes such as jumbotron, rows, columns, panels, and wells. My content contains numerous links to external webpages: either recent projects, or additional information in the 'about me' section._
 
 ## Setup/Installation Requirements
 
-* _Site is viewable at gravytates.github.io/portfolio. If you would prefer cloning the webpage to your local machine:_
+* _Site is viewable at https://gravytates.github.io/portfolio. If you would prefer cloning the webpage to your local machine:_
 * _Clone repository using "https://github.com/gravytates/portfolio.git"_
 * _Open 'portfolio' folder_
 * _Open 'index.html' file_
