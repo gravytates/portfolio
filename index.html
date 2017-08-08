@@ -4,14 +4,21 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Grady Shelton Portfolio</title>
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
   </head>
   <body>
-    <container>
+    <div id="background">
       <div class ="jumbotron">
         <h1>Beyond</h1>
-        <img id="painting" src="img/art2.jpg" alt="my dear heart painting">
+        <img id="painting" src="img/sq-art-2.jpg" alt="my dear heart painting">
         <h2>Grady L Shelton</h2>
       </div>
+    </div>
+    <div id='container'>
 
       <!-- Intro Tag -->
 
@@ -21,13 +28,12 @@
         </h4>
       </div>
 
-      <div id="background"></div> <!--empty div, built in css-->
 
       <!-- Projects Section: Header, and two rows of three columns -->
 
-<!-- row 1 -->
       <h3 id="myprojects">Projects</h3>
 
+      <!-- row 1 -->
       <div class="row">
         <div class="col-lg-4">
           <div class="well" id="project-left">
@@ -95,7 +101,7 @@
             </div>
           </div>
         </div>
-      </div> <!--row -->
+       <!--row -->
 
 <!-- row 2 -->
       <div class="row">
@@ -281,6 +287,6 @@
 
       <p id="foot">epicodus 2017 build by Grady L Shelton</p>
 
-    </container>
+    </div>
   </body>
 </html>
