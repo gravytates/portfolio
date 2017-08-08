@@ -1,45 +1,9 @@
 /*Elements*/
 
-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 90%;
-  height: auto;
-}
-
-
-/*h2 {
-  text-align: center;
-}*/
-
-/*Classes*/
-
-/*.jumbotron {
-  text-align: center;
-  color: #eeba30;
-  background-color: rgba(0, 0, 0, 0);
-  text-shadow: black -1px 1px;
-  position: fixed;
-  z-index: 1;
-}*/
-
-/*.jumbotron {
-  background-image: url(../img/forest.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-  padding: 40px 10px;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  top: 0;
-}*/
-
 #container {
   z-index: 5;
   background: #F5F5F5;
   margin-top: 100vh;
-
   height: 100%;
   width: 100%;
 }
@@ -57,7 +21,33 @@ img {
   position: fixed;
   z-index: -5;
   color: #eeba30;
+  /*font-family: 'Antic', sans-serif;*/
+  /*font-family: 'Carme', sans-serif;*/
+  /*font-family: 'Reem Kufi', sans-serif;*/
+  font-family: 'Josefin Sans', sans-serif;
 }
+
+.masthead {
+  padding-left: 7%;
+  padding-top: 20vh;
+}
+
+#painting {
+  display: block;
+  margin-left: 0;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 18%;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  height: auto;
+}
+
 
 .intro {
   text-align: center;
@@ -92,14 +82,6 @@ img {
 /*IDs*/
 
 
-#painting {
-  display: block;
-  margin-left: 0;
-  border: 1px solid black;
-  border-radius: 50%;
-  width: 28%;
-  padding: 0px;
-}
 
 #intro {
   background-color: rgba(116,0,1,0.5);
