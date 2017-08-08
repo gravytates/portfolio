@@ -79,13 +79,18 @@
   justify-content: space-around;
 }
 
-
-
 .nav-option {
   padding: 0 5px 5px 5px;
   margin: 0px;
   text-align: center;
   flex: 1 1 auto;
+}
+
+#project-scroll-link {
+  cursor: pointer;
+}
+
+.projects-section {
 }
 
 
