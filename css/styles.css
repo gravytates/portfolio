@@ -6,6 +6,7 @@
   margin-top: 100vh;
   height: 100%;
   width: 100%;
+  margin-bottom: 8vh;
 }
 
 .jumbotron {
@@ -20,17 +21,83 @@
   background-attachment: fixed;
   position: fixed;
   z-index: -5;
-  color: #eeba30;
-  /*font-family: 'Antic', sans-serif;*/
-  /*font-family: 'Carme', sans-serif;*/
-  /*font-family: 'Reem Kufi', sans-serif;*/
+  color: rgb(255, 249, 234);
   font-family: 'Josefin Sans', sans-serif;
+  display: none;
 }
 
 .masthead {
   padding-left: 7%;
-  padding-top: 20vh;
+  padding-top: 15vh;
+  display: none;
 }
+
+#masthead-subtext {
+  padding-left: 7%;
+  display: none;
+}
+
+#developer {
+  display: none;
+  color: rgb(43, 43, 43);
+}
+
+#developer, a {
+  color: rgb(43, 43, 43);
+}
+
+#developer:hover a:hover {
+  color: rgb(43, 43, 43);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+#nav, li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#nav {
+  color: rgb(255, 249, 234);
+  font-family: 'Josefin Sans', sans-serif;
+
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  z-index: 60;
+  background: rgb(74, 126, 110);
+  height: 8vh;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+
+
+.nav-option {
+  padding: 5px;
+  margin: 0px;
+
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  flex: 1 1 auto;
+}
+
+
+
+
+
+
 
 #painting {
   display: block;
