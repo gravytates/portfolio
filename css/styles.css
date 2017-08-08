@@ -65,7 +65,7 @@
   bottom: 0;
   margin: 0;
   width: 100%;
-  z-index: 60;
+  z-index: 6;
   background: rgb(74, 126, 110);
   height: 8vh;
 
@@ -82,13 +82,8 @@
 
 
 .nav-option {
-  padding: 5px;
+  padding: 0 5px 5px 5px;
   margin: 0px;
-
-  line-height: 40px;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
   text-align: center;
   flex: 1 1 auto;
 }
