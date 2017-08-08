@@ -18,10 +18,25 @@ $(document).ready(function(){
   });
 
   //scroll to technologies from nav
+  $("#technology-scroll-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#technology-section").offset().top
+    }, 2000);
+  });
 
   //scroll to background from nav
+  $("#background-scroll-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#background-section").offset().top
+    }, 2000);
+  });
 
   //scroll to contact from nav
+  $("#contact-scroll-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact-section").offset().top
+    }, 2000);
+  });
 
 
 

@@ -27,9 +27,9 @@
     </div>
     <ul id='nav'>
       <li class='nav-option' id='project-scroll-link'><h3>Projects</h3></li>
-      <li class='nav-option'><h3>Technologies</h3></li>
-      <li class='nav-option'><h3>Background</h3></li>
-      <li class='nav-option'><h3>Contact</h3></li>
+      <li class='nav-option' id='technology-scroll-link'><h3>Technologies</h3></li>
+      <li class='nav-option' id='background-scroll-link'><h3>Background</h3></li>
+      <li class='nav-option' id='contact-scroll-link'><h3>Contact</h3></li>
     </ul>
 
     <div id='container'>
@@ -187,119 +187,130 @@
         </div> <!--row -->
       </div>
 
-      <!-- About Me section: header and four rows, three columns each (two are blank for spacing) -->
+      <div id="technology-section">
+        <h3>Here's some technology I used</h3>
+      </div>
 
-      <h3 id="aboutme">About Me</h3>
+      <div id="background-section">
+        <!-- About Me section: header and four rows, three columns each (two are blank for spacing) -->
 
-      <!-- 1. Education -->
+        <h3 id="aboutme">About Me</h3>
 
-      <div class="row">
-        <div class="col-sm-2"></div> <!--empty column -->
-        <div class="col-sm-8">
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <h3 class="panel-title">Education</h3>
-            </div> <!--panel heading -->
-            <div class="panel-body">
-              <span id="psu">
-                <a href="https://www.pdx.edu/" target="_blank">
-                  <img src="img/psu.jpg" alt="Park blocks at Portland State" id="psupic">
+        <!-- 1. Education -->
+
+        <div class="row">
+          <div class="col-sm-2"></div> <!--empty column -->
+          <div class="col-sm-8">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h3 class="panel-title">Education</h3>
+              </div> <!--panel heading -->
+              <div class="panel-body">
+                <span id="psu">
+                  <a href="https://www.pdx.edu/" target="_blank">
+                    <img src="img/psu.jpg" alt="Park blocks at Portland State" id="psupic">
+                  </a>
+                </span>
+                <p>
+                  I studied locally at <a href="https://www.pdx.edu/" target="_blank">Portland State University</a>. There I received a degree in Environmental Science with a minor in Biology. Before PSU I attended Clackamas community college where I attained an Associates degree. My interest in environmental systems is still alive and well today. I specialized in watershed biogeochemistry and bio-invasion management in riparian areas, with extra emphasis on the statistical models (<a href="http://math.hws.edu/javamath/ryan/ChiSquare.html" target="_blank">chi-square</a>, <a href="http://blog.minitab.com/blog/adventures-in-statistics-2/understanding-t-tests-t-values-and-t-distributions" target="_blank">t-test</a>, etc) underpinning results.
+                </p>
+              </div> <!--panel body-->
+            </div> <!--panel panel-default -->
+          </div> <!--col -->
+          <div class="col-sm-2"></div> <!--empty column -->
+        </div> <!--row -->
+
+        <!-- 2. Work Experience -->
+
+        <div class="row">
+          <div class="col-sm-2"></div> <!--empty column -->
+          <div class="col-sm-8">
+            <div class="panel panel-success">
+              <div class="panel-heading">
+                <h3 class="panel-title">Work Experience</h3>
+              </div> <!--panel heading -->
+              <div class="panel-body">
+                <span id="lake">
+                  <a href="http://lakecorp.com/" target="_blank">
+                    <img src="img/lake.jpg" alt="lake oswego" id="lake-pic">
+                  </a>
+                </span>
+                <p>
+                  In the past I worked as a humble washer of cars. From there I graduated to the big leagues of hotel valet. Concurrently, I've commonly had part-time or seasonal work more in line with my environmental field. Notably I was <a href="http://www.oswegowatershed.org/" target="_blank">Oswego Lake Watershed Council's</a> first project coordinator, where I built up volunteer watershed remediation programs at various sites within the city. I also more recently served as a water quality technician with <a href="http://lakecorp.com/" target="_blank">Lake Oswego Corporation</a>, working on improving water quality for the lake itself. The key highlight of that position lies in how many and how often I got to <strong>drive the boats.</strong> Fun stuff.
+                </p>
+              </div> <!--panel body-->
+            </div> <!--panel panel-default -->
+          </div> <!--col -->
+          <div class="col-sm-2"></div> <!--empty column -->
+        </div> <!--row -->
+
+        <!-- 3. Why Programming? -->
+
+        <div class="row">
+          <div class="col-sm-2"></div> <!--empty column -->
+          <div class="col-sm-8">
+            <div class="panel panel-warning">
+              <div class="panel-heading">
+                <h3 class="panel-title">Why Programming?</h3>
+              </div> <!--panel heading -->
+              <span id="logo">
+                <a href="https://www.epicodus.com/" target="_blank">
+                  <img src="img/logo1.png" alt="epicodus logo" id="logopic">
                 </a>
               </span>
-              <p>
-                I studied locally at <a href="https://www.pdx.edu/" target="_blank">Portland State University</a>. There I received a degree in Environmental Science with a minor in Biology. Before PSU I attended Clackamas community college where I attained an Associates degree. My interest in environmental systems is still alive and well today. I specialized in watershed biogeochemistry and bio-invasion management in riparian areas, with extra emphasis on the statistical models (<a href="http://math.hws.edu/javamath/ryan/ChiSquare.html" target="_blank">chi-square</a>, <a href="http://blog.minitab.com/blog/adventures-in-statistics-2/understanding-t-tests-t-values-and-t-distributions" target="_blank">t-test</a>, etc) underpinning results.
-              </p>
-            </div> <!--panel body-->
-          </div> <!--panel panel-default -->
-        </div> <!--col -->
-        <div class="col-sm-2"></div> <!--empty column -->
-      </div> <!--row -->
+              <div class="panel-body">
+                <p>
+                  Portland is saturated with fellow Environmental Scientists. It's a fantastic city to learn about the science, methodology and discipline, however the job market is very competitive. A master's degree is the new standard for a living wage, $30,000/year, job in this region, and I have been wondering what other options may be out there. As some of my friends have pointed out, programming is <em>fun</em>, <em>useful</em> and has still <a href="https://www.nceas.ucsb.edu/news/open-science-codefest-nexus-environmental-sciences-and-computer-programing" target="_blank">untapped potential</a> in the environmental field. I believe having a strong foundation and work experience with programming can only help my professional career. Whether I'm building websites, apps, or statistical models, I believe programming is the future for not only myself, but for the field of many scientific disciplines.
+                </p>
+              </div> <!--panel body-->
+            </div> <!--panel panel-default -->
+          </div> <!--col -->
+          <div class="col-sm-2"></div> <!--empty column -->
+        </div> <!--row -->
 
-      <!-- 2. Work Experience -->
+        <!-- 4. Outside Interests -->
 
-      <div class="row">
-        <div class="col-sm-2"></div> <!--empty column -->
-        <div class="col-sm-8">
-          <div class="panel panel-success">
-            <div class="panel-heading">
-              <h3 class="panel-title">Work Experience</h3>
-            </div> <!--panel heading -->
-            <div class="panel-body">
-              <span id="lake">
-                <a href="http://lakecorp.com/" target="_blank">
-                  <img src="img/lake.jpg" alt="lake oswego" id="lake-pic">
-                </a>
-              </span>
-              <p>
-                In the past I worked as a humble washer of cars. From there I graduated to the big leagues of hotel valet. Concurrently, I've commonly had part-time or seasonal work more in line with my environmental field. Notably I was <a href="http://www.oswegowatershed.org/" target="_blank">Oswego Lake Watershed Council's</a> first project coordinator, where I built up volunteer watershed remediation programs at various sites within the city. I also more recently served as a water quality technician with <a href="http://lakecorp.com/" target="_blank">Lake Oswego Corporation</a>, working on improving water quality for the lake itself. The key highlight of that position lies in how many and how often I got to <strong>drive the boats.</strong> Fun stuff.
-              </p>
-            </div> <!--panel body-->
-          </div> <!--panel panel-default -->
-        </div> <!--col -->
-        <div class="col-sm-2"></div> <!--empty column -->
-      </div> <!--row -->
+        <div class="row">
+          <div class="col-sm-2"></div> <!--empty column -->
+          <div class="col-sm-8">
+            <div class="panel panel-danger">
+              <div class="panel-heading">
+                <h3 class="panel-title">Outside Interests</h3>
+              </div> <!--panel heading -->
+              <div class="panel-body">
+                <p>
+                  Outside of school and work I like to either relax indoors and have fun, or go outdoors and have even more fun! Here's a list of some of my favorite activities:
+                </p>
+                <span id="motorbike">
+                  <a href="https://www.youtube.com/watch?v=iRWp9rhfS_0" target="_blank">
+                    <img src="img/bike.jpg" alt="my motorcycle" id="bikepic">
+                  </a>
+                </span>
+                <ol>
+                  <li><a href="https://www.youtube.com/watch?v=iRWp9rhfS_0" target="_blank">Ride Motorcycles</a></li>
+                  <li>Read</li>
+                  <li>Watch the Portland Timbers FC (I'm fortunate enough to be a season ticket holder!)</li>
+                  <li>
+                    <a href="https://www.facebook.com/media/set/?set=a.151830454157.112706.807674157&type=1&l=b3993ab8a1" target="_blank">Paint</a> (the painting at the top of this website is mine!)
+                  </li>
+                  <li>Work out</li>
+                  <li>Hike</li>
+                  <li>Whiskey</li>
+                  <li>Coffee</li>
+                </ol>
+              </div> <!--panel body-->
+            </div> <!--panel panel-default -->
+          </div> <!--col -->
+          <div class="col-sm-2"></div> <!--empty column -->
+        </div> <!--row -->
 
-      <!-- 3. Why Programming? -->
-
-      <div class="row">
-        <div class="col-sm-2"></div> <!--empty column -->
-        <div class="col-sm-8">
-          <div class="panel panel-warning">
-            <div class="panel-heading">
-              <h3 class="panel-title">Why Programming?</h3>
-            </div> <!--panel heading -->
-            <span id="logo">
-              <a href="https://www.epicodus.com/" target="_blank">
-                <img src="img/logo1.png" alt="epicodus logo" id="logopic">
-              </a>
-            </span>
-            <div class="panel-body">
-              <p>
-                Portland is saturated with fellow Environmental Scientists. It's a fantastic city to learn about the science, methodology and discipline, however the job market is very competitive. A master's degree is the new standard for a living wage, $30,000/year, job in this region, and I have been wondering what other options may be out there. As some of my friends have pointed out, programming is <em>fun</em>, <em>useful</em> and has still <a href="https://www.nceas.ucsb.edu/news/open-science-codefest-nexus-environmental-sciences-and-computer-programing" target="_blank">untapped potential</a> in the environmental field. I believe having a strong foundation and work experience with programming can only help my professional career. Whether I'm building websites, apps, or statistical models, I believe programming is the future for not only myself, but for the field of many scientific disciplines.
-              </p>
-            </div> <!--panel body-->
-          </div> <!--panel panel-default -->
-        </div> <!--col -->
-        <div class="col-sm-2"></div> <!--empty column -->
-      </div> <!--row -->
-
-      <!-- 4. Outside Interests -->
-
-      <div class="row">
-        <div class="col-sm-2"></div> <!--empty column -->
-        <div class="col-sm-8">
-          <div class="panel panel-danger">
-            <div class="panel-heading">
-              <h3 class="panel-title">Outside Interests</h3>
-            </div> <!--panel heading -->
-            <div class="panel-body">
-              <p>
-                Outside of school and work I like to either relax indoors and have fun, or go outdoors and have even more fun! Here's a list of some of my favorite activities:
-              </p>
-              <span id="motorbike">
-                <a href="https://www.youtube.com/watch?v=iRWp9rhfS_0" target="_blank">
-                  <img src="img/bike.jpg" alt="my motorcycle" id="bikepic">
-                </a>
-              </span>
-              <ol>
-                <li><a href="https://www.youtube.com/watch?v=iRWp9rhfS_0" target="_blank">Ride Motorcycles</a></li>
-                <li>Read</li>
-                <li>Watch the Portland Timbers FC (I'm fortunate enough to be a season ticket holder!)</li>
-                <li>
-                  <a href="https://www.facebook.com/media/set/?set=a.151830454157.112706.807674157&type=1&l=b3993ab8a1" target="_blank">Paint</a> (the painting at the top of this website is mine!)
-                </li>
-                <li>Work out</li>
-                <li>Hike</li>
-                <li>Whiskey</li>
-                <li>Coffee</li>
-              </ol>
-            </div> <!--panel body-->
-          </div> <!--panel panel-default -->
-        </div> <!--col -->
-        <div class="col-sm-2"></div> <!--empty column -->
-      </div> <!--row -->
+      </div>
 
       <!-- End-tag -->
+
+      <div id="contact-section">
+        <h3>Contact me or something!</h3>
+      </div>
 
       <img id="painting" src="img/sq-art-2.jpg" alt="my dear heart painting">
       <p id="foot">epicodus 2017 build by Grady L Shelton</p>
