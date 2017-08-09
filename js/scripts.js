@@ -48,7 +48,9 @@ $(document).ready(function(){
     $(this).children('.project-details').slideToggle();
   });
 
+
   // separate function for university api due to it's header element
+
   $('#universityapi').hover(function() {
     $('#university-api-title').slideToggle();
     $(this).children('.university-details').slideToggle();
