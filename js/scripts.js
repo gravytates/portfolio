@@ -38,13 +38,9 @@ $(document).ready(function(){
     }, 2000);
   });
 
+  // show and hide contact information upon hover
   $('.contact-option').hover(function() {
        $(this).children('.contact-text').slideToggle();
     });
-
-
-
-
-
 
 });

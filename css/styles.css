@@ -208,10 +208,10 @@ img {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-#painting {
+#portrait {
   display: block;
 
-  margin: 0 auto;
+  margin: 10% auto;
   /*border: 1px solid black;*/
   border-radius: 50%;
   width: 40%;
