@@ -1,4 +1,5 @@
 /*Elements*/
+/*Banner dimensions: 650 x 1440 or 750 x 825 */
 
 #container {
   z-index: 5;
@@ -87,16 +88,6 @@
   cursor: pointer;
 }
 
-.projects-section {
-}
-
-
-
-
-
-
-
-
 
 img {
   display: block;
@@ -105,92 +96,56 @@ img {
   height: auto;
 }
 
+.project-row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 
-.intro {
+  -webkit-flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.project-screenshot {
+  padding: 0 0 2% 0;
+  margin: 0 0.5% 2% 0.5%;
   text-align: center;
-  padding: 0% 25% 0% 25%;
-  color: 	#ffc425;
+  flex: 1 1 auto;
+  height: 92vh;
+  width: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.well {
-  border-radius: 20px;
-  margin-top: 10px;
-  margin-bottom: 30px;
+.project-site, .project-repo {
+  display: none;
 }
 
-.bg-info {
-  border-radius: 10px;
-  border: 1px solid grey;
+#tomkane {
+  background-image: url(../img/tomkanelong.png);
 }
 
-.panel {
-  background-color: rgba(229, 229, 227, 0.6);
-  border-radius: 10px;
-  border: 1px solid black;
-
+#restorationstation {
+  background-image: url(../img/restorationstationlong.png);
 }
 
-.panel-heading {
-  border-radius: 10px;
-  border: 1px solid black;
-
+#careerquest {
+  background-image: url(../img/careerquestlong.png);
 }
 
-/*IDs*/
-
-
-
-#intro {
-  background-color: rgba(116,0,1,0.5);
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: 5px 0px 5px 0px;
+#gradysgames {
+  background-image: url(../img/gradysgameslong.png);
 }
 
-
-/*My Projects IDs*/
-
-#myprojects {
-  text-shadow: black -1px 1px;
-  text-align: left;
-  padding-left: 4%;
-  color: rgb(255, 255, 255);
+#universityapi {
+  background-image: url(../img/university_api_long.jpg);
 }
 
-.project-head {
-  padding-left: 8%;
+#carbonestimator {
+  background-image: url(../img/carbonestimatorlong.png);
 }
-
-.project-foot {
-  text-align: center;
-}
-
-#project-left {
-  background-color: rgba(204, 255, 204, 0.5);
-  margin: 0px 10px 0px 15px;
-  border: 1px solid black;
-
-}
-
-#project-center {
-  background-color: rgba(204, 230, 255, 0.5);
-  border: 1px solid black;
-
-}
-
-#project-right {
-  background-color: rgba(255, 255, 153, 0.5);
-  margin: 0px 10px 0px 15px;
-  border: 1px solid black;
-}
-
-.project-pic {
-  border-radius: 10px;
-  border: 1px solid grey;
-}
-
-/*About Me IDs*/
-
 
 #background-title, #technologies-title, #projects-title {
   padding: 3%;
@@ -210,62 +165,11 @@ img {
 
 #portrait {
   display: block;
-
   margin: 10% auto;
   /*border: 1px solid black;*/
   border-radius: 50%;
   width: 40%;
   padding: 0px;
-}
-
-#psu {
-  float: left;
-  max-width: 250px;
-  height: auto;
-  display: block;
-  border-radius: 20px;
-}
-
-#psupic {
-  border-radius: 15px;
-  border: 1px solid grey;
-}
-
-#lake {
-  float: right;
-  max-width: 215px;
-  height: auto;
-  display: block;
-}
-
-#lake-pic {
-  border-radius: 15%;
-  border: 1px solid grey;
-}
-
-#logo {
-  float: left;
-  max-width: 200px;
-  height: auto;
-  display: block;
-  padding-top: 10px;
-}
-
-#logopic {
-  border-radius: 15%;
-  border: 1px solid grey;
-}
-
-#motorbike {
-  float: right;
-  max-width: 320px;
-  height: auto;
-  display: block;
-}
-
-#bikepic {
-  border-radius: 15px;
-  border: 1px solid grey;
 }
 
 /*Contact Section*/
