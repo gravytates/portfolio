@@ -43,4 +43,13 @@ $(document).ready(function(){
        $(this).children('.contact-text').slideToggle();
     });
 
+  // show and hide project details upon hover
+  $('.project-screenshot').hover(function() {
+    $(this).children('.project-details').slideToggle();
+  });
+
+  $('#universityapi').hover(function() {
+    $('#university-api-title').slideToggle();
+    $(this).children('.university-details').slideToggle();
+  });
 });

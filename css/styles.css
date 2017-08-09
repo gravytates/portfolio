@@ -117,30 +117,45 @@ img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 1px 1px 20px 2px grey;
+  box-shadow: 1px 1px 20px 1px grey;
 }
 
-.project-site, .project-repo, .project-details {
+.project-details, .university-details {
   display: none;
-  background: green;
-  color: white;
+}
+
+.project-details, .university-details {
+  background: rgba(135, 176, 135, 0.9);
+  background-size: cover;
+  height: 105%;
+  padding-top: 10%;
+  color: rgb(255, 255, 234);
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.project-title {
+  text-shadow: 2px 2px 10px black;
 }
 
 #tomkane {
   background-image: url(../img/tomkanelong.png);
+  width: 0%;
 }
 
 #restorationstation {
   background-image: url(../img/restorationstationlong.png);
+  width: 0%;
 }
 
 #careerquest {
   background-image: url(../img/careerquestlong.png);
+  width: 0%;
 }
 
 #gradysgames {
   background-image: url(../img/gradysgameslong.png);
+  width: 0%;
 }
 
 #universityapi {
@@ -148,23 +163,35 @@ img {
   width: 0%;
 }
 
+.university-api-title-layer {
+  height: 100%;
+  width: auto;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*#universityapi:hover + #university-api-title {
+  display: none;
+}*/
+
+
 #university-api-title {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  /*margin: 0;
-  padding: 0;*/
   width: 50%;
   font-size: 450%;
   margin: 35% auto;
   text-shadow: 2px 2px 10px black;
-  color: rgb(225, 61, 0);
+  color: rgb(225, 61, 30);
 }
+
 
 #carbonestimator {
   background-image: url(../img/carbonestimatorlong.png);
+  width: 0%;
 }
 
-#background-title, #technologies-title, #projects-title {
+#background-title, #technologies-title, #projects-title, #contact-title {
   padding: 3%;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
