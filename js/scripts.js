@@ -38,6 +38,10 @@ $(document).ready(function(){
     }, 2000);
   });
 
+  $('.contact-option').click(function() {
+    $(this).toggle('.contact-text');
+  });
+
 
 
 });
