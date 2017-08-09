@@ -48,6 +48,7 @@ $(document).ready(function(){
     $(this).children('.project-details').slideToggle();
   });
 
+  // show and hide university api details with its own function due to the app title layer
   $('#universityapi').hover(function() {
     $('#university-api-title').slideToggle();
     $(this).children('.university-details').slideToggle();
