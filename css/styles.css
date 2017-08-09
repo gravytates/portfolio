@@ -117,10 +117,14 @@ img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 1px 1px 20px 2px grey;
 }
 
-.project-site, .project-repo {
+.project-site, .project-repo, .project-details {
   display: none;
+  background: green;
+  color: white;
+  text-align: center;
 }
 
 #tomkane {
