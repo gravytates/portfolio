@@ -96,14 +96,7 @@
 
 
 
-#painting {
-  display: block;
-  margin-left: 0;
-  border: 1px solid black;
-  border-radius: 50%;
-  width: 18%;
-  padding: 0px;
-}
+
 
 img {
   display: block;
@@ -203,8 +196,21 @@ img {
   padding: 3%;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
+}
 
-  /*color: rgb(255, 255, 255);*/
+.paragraph {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 130%;
+}
+
+#painting {
+  display: block;
+
+  margin: 0 auto;
+  /*border: 1px solid black;*/
+  border-radius: 50%;
+  width: 40%;
+  padding: 0px;
 }
 
 #psu {
