@@ -141,6 +141,19 @@ img {
 
 #universityapi {
   background-image: url(../img/university_api_long.jpg);
+  width: 0%;
+}
+
+#university-api-title {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  /*margin: 0;
+  padding: 0;*/
+  width: 50%;
+  font-size: 450%;
+  margin: 35% auto;
+  text-shadow: 2px 2px 10px black;
+  color: rgb(225, 61, 0);
 }
 
 #carbonestimator {
