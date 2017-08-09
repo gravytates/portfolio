@@ -203,6 +203,11 @@ img {
   font-size: 130%;
 }
 
+#clincher {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 #painting {
   display: block;
 
