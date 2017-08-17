@@ -113,7 +113,7 @@ img {
   text-align: center;
   flex: 1 1 auto;
   height: 92vh;
-  width: auto;
+  width: 40vw;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -259,8 +259,31 @@ img {
 
 /*Media Query (padding control)*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 790px) {
     #aboutme {
         padding-left: 4%;
     }
+}
+
+@media only screen and (max-device-width: 790px) {
+  .project-screenshot {
+    height: 43vh;
+    width: 40vw;
+  }
+
+  .nav-option > h3 {
+    font-size: 250%;
+    padding: 15px 5px 5px 5px;
+  }
+}
+
+@media only screen and (max-device-width: 440px) {
+  .project-screenshot {
+    height: 33vh;
+    width: 40vw;
+  }
+  .nav-option > h3 {
+    font-size: 250%;
+    padding: 25px 5px 5px 5px;
+  }
 }
