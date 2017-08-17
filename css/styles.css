@@ -277,6 +277,20 @@ img {
     font-size: 250%;
     padding: 15px 5px 5px 5px;
   }
+
+  h2 {
+    font-size: 300%;
+  }
+  .paragraph {
+    font-size: 200%;
+  }
+  .project-details > p {
+    font-size: 120%;
+  }
+
+  .university-details > p {
+    font-size: 150%;
+  }
 }
 
 
