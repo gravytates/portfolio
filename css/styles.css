@@ -265,6 +265,8 @@ img {
     }
 }
 
+
+/*ipad media query*/
 @media only screen and (max-device-width: 790px) {
   .project-screenshot {
     height: 43vh;
@@ -277,6 +279,8 @@ img {
   }
 }
 
+
+/*smart phone media query*/
 @media only screen and (max-device-width: 440px) {
   .project-screenshot {
     height: 33vh;
@@ -286,4 +290,19 @@ img {
     font-size: 250%;
     padding: 25px 5px 5px 5px;
   }
+  h2 {
+    font-size: 300%;
+  }
+  .paragraph {
+    font-size: 200%;
+  }
+  .project-details > p {
+    font-size: 120%;
+  }
+
+  .university-details > p {
+    font-size: 150%;
+  }
+
+
 }
