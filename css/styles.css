@@ -206,6 +206,9 @@ img {
 tr, td {
   padding: 20px;
   font-family: 'Josefin Sans', sans-serif;
+  height: 8em;
+  width: 18em;
+  text-align: center;
 }
 
 
@@ -213,6 +216,7 @@ tr, td {
 td {
   font-size: 1.5em;
   box-shadow: 1px 1px 5px grey;
+
 }
 
 tr:nth-child(even) {
