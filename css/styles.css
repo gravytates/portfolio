@@ -40,15 +40,15 @@
 
 #developer {
   display: none;
-  color: rgb(43, 43, 43);
 }
 
 #developer, a {
-  color: rgb(43, 43, 43);
+  /*color: rgb(43, 43, 43);*/
+    color: rgb(255, 170, 102);
 }
 
 #developer:hover a:hover {
-  color: rgb(43, 43, 43);
+  color: rgb(255, 170, 102);
   text-decoration: none;
   font-weight: bolder;
 }
