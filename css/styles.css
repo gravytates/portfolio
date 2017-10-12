@@ -7,7 +7,7 @@
   margin-top: 100vh;
   height: 100%;
   width: 100%;
-  margin-bottom: 8vh;
+  margin-bottom: 3%;
 }
 
 .jumbotron {
@@ -70,7 +70,7 @@
   width: 105%;
   z-index: 6;
   background: rgb(74, 126, 110);
-  height: 8vh;
+  height: 5%;
 
   display: -webkit-box;
   display: -moz-box;
@@ -84,7 +84,7 @@
 }
 
 .nav-option {
-  padding: 1%;
+  padding: 0 1% 1% 1%;
   margin: 0px;
   text-align: center;
   flex: 1 1 auto;
@@ -97,6 +97,11 @@ img {
   margin: 0 auto;
   max-width: 90%;
   height: auto;
+}
+
+#projects-section {
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .project-row {
@@ -112,7 +117,7 @@ img {
 
 .project-screenshot {
   padding: 0 0 2% 0;
-  margin: 0 0.5% 2% 0.5%;
+  margin: 0 1% 2% 1%;
   text-align: center;
   flex: 1 1 auto;
   height: 92vh;
@@ -337,23 +342,16 @@ table {
     width: 40vw;
   }
 
-  .nav-option > h3 {
-    font-size: 250%;
+  #container {
+    margin-bottom: 8%;
+  }
+
+  .nav-option > h4 {
     padding: 15px 5px 5px 5px;
   }
 
-  h2 {
-    font-size: 300%;
-  }
   .paragraph {
     font-size: 200%;
-  }
-  .project-details > p {
-    font-size: 120%;
-  }
-
-  .university-details > p {
-    font-size: 150%;
   }
 }
 
@@ -364,23 +362,15 @@ table {
     height: 33vh;
     width: 40vw;
   }
-  .nav-option > h3 {
-    font-size: 250%;
-    padding: 25px 5px 5px 5px;
+
+  #container {
+    margin-bottom: 8%;
   }
-  h2 {
-    font-size: 300%;
+
+  .nav-option > h4 {
+    padding: 25px 5px 5px 5px;
   }
   .paragraph {
     font-size: 200%;
   }
-  .project-details > p {
-    font-size: 120%;
-  }
-
-  .university-details > p {
-    font-size: 150%;
-  }
-
-
 }
