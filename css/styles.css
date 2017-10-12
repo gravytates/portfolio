@@ -31,11 +31,13 @@
   padding-left: 7%;
   padding-top: 15vh;
   display: none;
+  font-size: 7vh;
 }
 
 #masthead-subtext {
   padding-left: 7%;
   display: none;
+  /*font-size: 7vh;*/
 }
 
 #developer {
@@ -82,7 +84,7 @@
 }
 
 .nav-option {
-  padding: 0 5px 5px 5px;
+  padding: 1%;
   margin: 0px;
   text-align: center;
   flex: 1 1 auto;
@@ -192,7 +194,7 @@ img {
 
 
 #carbonestimator {
-  background-image: url(../img/carbonestimatorlong.png);
+  background-image: url(../img/greenstate.png);
   width: 0%;
 }
 
@@ -206,15 +208,15 @@ img {
 tr, td {
   padding: 20px;
   font-family: 'Josefin Sans', sans-serif;
-  height: 8em;
-  width: 18em;
+  height: 6em;
+  width: 15em;
   text-align: center;
 }
 
 
 
 td {
-  font-size: 1.5em;
+  font-size: 1.3em;
   box-shadow: 1px 1px 5px grey;
 
 }
@@ -224,14 +226,24 @@ tr:nth-child(even) {
   color: rgb(255, 249, 234);
 }
 
+tr:nth-child(even) td:nth-child(even) {
+  background: lightgrey;
+  color: black;
+}
+
 tr:nth-child(odd) {
   background: lightgrey;
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+  background: rgb(74, 126, 110);
+  color: rgb(255, 249, 234);
 }
 
 table {
   justify-content: center;
   border-collapse: separate;
-  border-spacing: 13px 8px;
+  border-spacing: 13px 15px;
 }
 
 
@@ -295,6 +307,10 @@ table {
   display: none;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 150%;
+}
+
+.contact-text a {
+  color: black;
 }
 
 
