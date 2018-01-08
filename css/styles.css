@@ -41,6 +41,9 @@ h2 {
 body.is-os section {
   background-attachment: initial !important;
   background-size: cover !important;
+  background-image: url(../img/whitemountains.jpg);
+  height: 100vh;
+  width: 100vw;
 }
 
 .masthead {
