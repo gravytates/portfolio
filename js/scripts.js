@@ -1,5 +1,9 @@
 
+var _isOS = navigator.userAgent.match(/(iPod|iPhone|iPad)/);
 
+if (_isOS) {
+  $('body').addClass('is-os');
+}
 
 $(document).ready(function(){
   //initial fade in of mast head and header elements
@@ -10,11 +14,7 @@ $(document).ready(function(){
     $('.jumbotron').fadeIn(4000);
   });
 
-  var _isOS = navigator.userAgent.match(/(iPod|iPhone|iPad)/);
 
-  if (_isOS) {
-    $('body').addClass('is-os');
-  }
 
   //scroll to projects from nav
   $("#project-scroll-link").click(function() {
