@@ -40,10 +40,10 @@ h2 {
 
 body.is-os .jumbo {
   background-attachment: initial !important;
-  /*background-size: cover !important;*/
+  background-size: cover !important;
   background-image: url(../img/whitemountains.jpg);
-  height: 100vh !important;
-  width: 100vw !important;
+  /*height: 100vh !important;
+  width: 100vw !important;*/
 }
 
 .masthead {
