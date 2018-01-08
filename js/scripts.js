@@ -13,38 +13,38 @@ $(document).ready(function(){
   //scroll to projects from nav
   $("#project-scroll-link").click(function() {
     $('html, body').animate({
-        scrollTop: $("#projects-section").offset().top
+        scrollTop: $(".projects").offset().top
     }, 2000);
   });
 
   //scroll to technologies from nav
   $("#technology-scroll-link").click(function() {
     $('html, body').animate({
-        scrollTop: $("#technology-section").offset().top
+        scrollTop: $(".technologies").offset().top
     }, 2000);
   });
 
   //scroll to background from nav
   $("#background-scroll-link").click(function() {
     $('html, body').animate({
-        scrollTop: $("#background-section").offset().top
+        scrollTop: $(".background").offset().top
     }, 2000);
   });
 
-  //scroll to contact from nav
-  $("#contact-scroll-link").click(function() {
+  //scroll to connect from nav
+  $("#connect-scroll-link").click(function() {
     $('html, body').animate({
-        scrollTop: $("#contact-section").offset().top
+        scrollTop: $(".connect").offset().top
     }, 2000);
   });
 
-  // show and hide contact information upon hover
-  $('.contact-option').hover(function() {
-       $(this).children('.contact-text').slideToggle();
+  // show and hide connect information upon hover
+  $('.connect-option').hover(function() {
+       $(this).children('.connect-text').slideToggle();
     });
 
   // show and hide project details upon hover
-  $('.project-screenshot').hover(function() {
+  $('.project-screen').hover(function() {
     $(this).children('.project-details').slideToggle();
   });
 
