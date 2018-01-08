@@ -38,7 +38,7 @@ h2 {
   display: none;
 }
 
-body.is-os section {
+body.is-os .jumbo {
   background-attachment: initial !important;
   /*background-size: cover !important;*/
   background-image: url(../img/whitemountains.jpg);
