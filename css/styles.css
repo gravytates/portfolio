@@ -31,12 +31,11 @@ h2 {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  position: fixed;
+  position: fixed !important;
   z-index: -1;
   color: rgb(255, 249, 234);
-  /*font-family: 'Josefin Sans', sans-serif;*/     s
+  s
   display: none;
-  /*border: 1px solid black;*/
 }
 
 .masthead {
