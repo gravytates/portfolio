@@ -10,6 +10,7 @@ body {
   line-height: 30px;
   letter-spacing: 0.5px;
   color: #333333;
+  /*background-color: RED;*/
 }
 
 #nav {
@@ -442,6 +443,7 @@ h1, h2, h3 {
   .nav-option {
     margin: 0px;
     text-align: center;
+    /*flex: 1 1 auto;*/
     cursor: pointer;
     display: -webkit-box;
     display: -moz-box;
@@ -463,6 +465,8 @@ h1, h2, h3 {
   .project-row {
     width: 1200px;
     margin: 0 auto;
+    /*justify-content: center;*/
+    /*align-self: center;*/
   }
 
   .project-row .project-screen {
