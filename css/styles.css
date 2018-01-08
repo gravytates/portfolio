@@ -38,6 +38,11 @@ h2 {
   display: none;
 }
 
+body.is-os section {
+  background-attachment: initial !important;
+  background-size: cover !important;
+}
+
 .masthead {
   padding-top: 15vh;
   display: none;
