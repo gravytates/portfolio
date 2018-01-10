@@ -512,8 +512,8 @@ input {
 
 @media only screen and (min-device-width: 1025px) {
   .gutter {
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 160px;
+    margin-right: 160px;
   }
 
   .project-row {
