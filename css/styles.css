@@ -117,8 +117,12 @@ h1, h2, h3 {
 
 
 
-.background h2, .connect h2 {
-  margin-top: 50px;
+.background h2 {
+  margin-top: 80px;
+}
+
+.connect h2 {
+  margin-top: 80px;
 }
 
 #more-projects-header {
@@ -280,6 +284,7 @@ h1, h2, h3 {
   margin-left: 6%;
   margin-right: 6%;
   margin-top: 30px;
+  border: 0.1px solid rgba(255,255,255,0.01);
 }
 
 .background h2 {
@@ -288,8 +293,6 @@ h1, h2, h3 {
 
 .background p {
   margin-bottom: 15px;
-  /*margin-left: 10%;
-  margin-right: 10%;*/
 }
 
 .portrait-div {
@@ -317,6 +320,7 @@ h1, h2, h3 {
   margin-right: 6%;
   margin-top: 30px;
   margin-bottom: 50px;
+  border: 0.1px solid rgba(255,255,255,0.01);
 }
 
 .connect h2 {
