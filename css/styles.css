@@ -170,7 +170,7 @@ h1, h2, h3 {
 
 .lunchwith-screen {
   border: 0.1px solid white;
-  height: 60vh;
+  height: 57vh;
   width: 260px;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -516,7 +516,8 @@ input {
   }
 
   .project-row .project-screen {
-    width: 300px;
+    width: 27%;
+    /*height: 43vh;*/
   }
 
 }
