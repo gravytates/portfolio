@@ -246,22 +246,26 @@ h1, h2, h3 {
 }
 
 
-
+.technologies {
+  /*margin-left: 25%;*/
+}
 
 .technology-categories {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-
+  align-items: center;
 }
 
 .technology-category {
   /*justify-content: space-between;*/
   margin-top: 50px;
   margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  /*margin-left: 35px;
+  margin-right: 35px;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
   width: 165px;
 }
 
@@ -402,6 +406,7 @@ input {
   cursor: pointer;
 }
 
+
 @media only screen and (min-device-width: 768px) {
 
   body {
@@ -412,8 +417,8 @@ input {
   }
 
   .gutter {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
   }
 
   .project-row, .lunchwith-row, .technology-categories {
@@ -428,9 +433,20 @@ input {
     padding: 50px;
   }
 
+  /*.technologies {
+    margin-left: 0%;
+  }*/
+
   .technology-category {
-    /*width: 110px;*/
+    /*justify-content: space-between;*/
+    /*margin: 0 auto;*/
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 165px;
   }
+
 
   .portrait-div {
     float: right;
@@ -496,8 +512,8 @@ input {
 
 @media only screen and (min-device-width: 1025px) {
   .gutter {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 180px;
+    margin-right: 180px;
   }
 
   .project-row {
