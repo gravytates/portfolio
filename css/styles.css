@@ -10,7 +10,7 @@ body {
   line-height: 30px;
   letter-spacing: 0.5px;
   color: #333333;
-  /*background-color: RED;*/
+  background-color: #f9f9f9;
 }
 
 #nav {
@@ -22,29 +22,29 @@ h2 {
 }
 
 .jumbo {
-  background-image: url(../img/whitemountains.jpg);
-  background-size: cover;
+  background-color: #51799C;
+
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(#51799C, #f9f9f9);
   height: 100vh;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  position: fixed !important;
-  z-index: -1;
+
+
+  /* these will reset other properties, like background-position, but it does know what you mean */
+  background: #51799C;
+  background: linear-gradient(#51799C, #f9f9f9);
+
   color: rgb(255, 249, 234);
-  s
-  display: none;
 }
 
-body.is-os .jumbo {
+
+
+/*body.is-os .jumbo {
   background-attachment: initial !important;
   background-size: cover !important;
   background-image: url(../img/whitemountains.jpg);
   height: 100vh !important;
   width: 100vw !important;
-}
+}*/
 
 .masthead {
   padding-top: 15vh;
@@ -78,9 +78,9 @@ body.is-os .jumbo {
 }
 
 .content {
-  margin-top: 100vh;
+  /*margin-top: 100vh;*/
   margin-bottom: 45px;
-  background-color: white;
+  background-color: #f9f9f9;
   /*width: 100vw;*/
   left: 0;
   padding: 0.5px;
@@ -141,7 +141,7 @@ h1, h2, h3 {
 }
 
 .project-row, .lunchwith-row {
-  border: 0.1px solid white;
+  border: 0.1px solid #f9f9f9;
 
   display: flex;
   flex-wrap: wrap;
@@ -151,7 +151,7 @@ h1, h2, h3 {
 }
 
 .project-screen {
-  border: 0.1px solid white;
+  border: 0.1px solid #f9f9f9;
   height: 50vh;
   width: 260px;
   margin-top: 10px;
@@ -173,7 +173,7 @@ h1, h2, h3 {
 }
 
 .lunchwith-screen {
-  border: 0.1px solid white;
+  border: 0.1px solid #f9f9f9;
   height: 57vh;
   width: 260px;
   margin-top: 10px;
@@ -378,6 +378,9 @@ input {
   border-left: 1px solid rgba(255,255,255,0.1);
   border-right: 1px solid rgba(255,255,255,0.1);
   /*border-bottom: 1px solid black;*/
+
+  background-color: #f9f9f9;
+
 }
 
 .connect form textarea {
@@ -389,12 +392,14 @@ input {
   margin-bottom: 20px;
   border: 1px solid grey;
   height: 100px;
+  background-color: #f9f9f9;
+
 }
 
 #send {
   width: 30%;
   border: 2px solid #51799C;
-  background-color: white;
+  background-color: #f9f9f9;
   color: #51799C;
 }
 
@@ -415,6 +420,27 @@ input {
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0.5px;
+  }
+
+  .jumbo {
+    background-image: url(../img/whitemountains.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed !important;
+    z-index: -1;
+    color: rgb(255, 249, 234);
+    s
+    display: none;
+  }
+
+  .content {
+    margin-top: 100vh;
   }
 
   .gutter {
@@ -468,7 +494,7 @@ input {
     left: 0;
     margin: 0;
     width: 100%;
-    background: white;
+    background: #f9f9f9;
     height: 45px;
     border-top: 0.5px solid #c8c8c8;
     display: flex;
