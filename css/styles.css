@@ -416,6 +416,10 @@ input {
 
 @media only screen and (min-device-width: 768px) {
 
+  :root {
+    --main-height: 57vh;
+  }
+
   body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -453,8 +457,11 @@ input {
     flex-direction: row;
   }
 
+
   .lunchwith-screen img {
-    width: 260px;
+    /*width: 260px;*/
+    width: calc(var(--main-height) / 1.8);
+
   }
 
   .project-text {
