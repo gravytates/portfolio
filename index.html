@@ -1,154 +1,257 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Antic|Carme|Josefin+Sans|Reem+Kufi" rel="stylesheet">
-    <title>Grady Shelton Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,400,400i,600,600i,700,800,800i" rel="stylesheet">
+    <title>Grady Shelton [ developer ]</title>
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous">
     </script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="https://use.fontawesome.com/e0a5a0a2b5.js"></script>
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" /> -->
   </head>
   <body>
-    <div class ="jumbotron">
+    <div class="jumbo">
       <div class="masthead">
-        <h1>My name is</h1>
-        <h1>Grady L. Shelton.</h1>
+        <h2>GRADY SHELTON</h2>
       </div>
 
-      <h1 id='masthead-subtext'>
-        I'm a web <span id='developer'><a href="https://github.com/gravytates/" target="_blank">developer.</a></span>
-      </h1>
-
+      <h2 id='masthead-subtext'>
+        <span id='developer'>[ developer ]</span>
+      </h2>
     </div>
-    <ul id='nav'>
-      <li class='nav-option' id='project-scroll-link'><h3>Projects</h3></li>
-      <li class='nav-option' id='technology-scroll-link'><h3>Technologies</h3></li>
-      <li class='nav-option' id='background-scroll-link'><h3>Background</h3></li>
-      <li class='nav-option' id='contact-scroll-link'><h3>Contact</h3></li>
-    </ul>
+    <div class="content">
+      <div class="projects">
+        <div class="gutter">
+          <h2 id="projects-header">Projects</h2>
+          <h3>LunchWith</h3>
+          <p>LunchWith is a React-Native and Redux mobile app used for junior and senior developers to find and connect with each other over lunch. AGILE methodologies were used to develop clean onboarding, functional mapping and filtering, user-to-user invites, clean profiles. Features Google Maps APIs, Node Clustering, Profile Carousels, Native Skills/Availability Selection and Filtering.</p>
 
-    <div id='container'>
+          <p>Other technologies include React, Javascript ES6, Xcode, Android Studio, Git, and Google API services.</p>
 
-      <div id="projects-section" >
-
-        <h2 id="projects-title">Projects</h2>
-
-        <div class="project-row">
-          <div class="project-screenshot" id="tomkane">
-            <div class="project-details">
-              <h1 class='project-title'>Tom Kane Art</h1>
-              <p>Tom Kane is a local painter, and this fully hosted eCommerce website is for him to show and sell his paintings. Technologies include Stripe, AWS S3, Paperclip, Devise authentication, and Mailgun.</p>
-
-              <p><a href='http://www.tomkaneart.com' target='_blank'>Experience the Site</a></p>
-              <p><a href="https://github.com/akane0915/tom-kane-art-website" target='_blank'>View the code</a></p>
-            </div>
+          <p><a href="https://github.com/teustice/lunchwith" target='_blank'>View the code</a></p>
+        </div>
+        <div class="lunchwith-row">
+          <div class="lunchwith-screen">
+            <img src="img/lunchwithMap.gif" alt="">
           </div>
-
-          <div class="project-screenshot" id='restorationstation'>
-            <div class="project-details">
-              <h1 class='project-title'>Restoration Station</h1>
-              <p>An angular2 and firebase-backed website for managing watershed restoration crews. Includes admin authentication through google and is hosted on firebase.</p>
-              <p><a href='https://restoration-station.firebaseapp.com/' target='_blank'>Experience the Site</a></p>
-              <p><a href="https://github.com/gravytates/restoration-station" target='_blank'>View the code</a></p>
-            </div>
+          <div class="lunchwith-screen">
+            <img src="img/lunchwithProfile.gif" alt="">
+          </div>
+          <div class="lunchwith-screen">
+            <img src="img/lunchwithFilter.gif" alt="">
           </div>
         </div>
-
+        <div class="gutter">
+          <h2 id='more-projects-header'>More Projects</h2>
+        </div>
         <div class="project-row">
-          <div class="project-screenshot" id='careerquest'>
+          <div class="project-screen" id="tomkane">
             <div class="project-details">
-              <h1 class='project-title'>Career Quest</h1>
-              <p>Experience the Site</p>
-              <p>View the code</p>
+              <div class="project-text">
+
+                <h1 class='project-title'>Tom Kane Art</h1>
+                <br>
+                <p>An eCommerce site built with Rails and AWS to sell paintings.</p>
+                <p><a href='http://www.tomkaneart.com' target='_blank'>Experience the Site</a></p>
+                <p><a href="https://github.com/akane0915/tom-kane-art-website" target='_blank'>View the code</a></p>
+              </div>
             </div>
           </div>
-          <div class="project-screenshot" id='gradysgames'>
+          <div class="project-screen" id="careerquest">
             <div class="project-details">
+              <div class="project-text">
+
+                <h1 class='project-title'>Career Quest</h1>
+                <br>
+                <p>A Ruby and Sinatra website to organize your job search. Hunt on!</p>
+                <p><a href="http://career-quest.herokuapp.com/" target='_blank'>Experience the Site</a></p>
+                <p><a href="https://github.com/gravytates/career_quest" target='_blank'>View the code</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="project-screen" id="greenstate">
+            <div class="project-details">
+              <div class="project-text">
+                <h1 class='project-title'>Green State</h1>
+                <br>
+                <p>Rails site to estimate Carbon Emissions and statistically compare between results.</p>
+
+                <p><a href="http://green-state.herokuapp.com/" target='_blank'>Experience the Site</a></p>
+                <p><a href="https://github.com/gravytates/green_state" target='_blank'>View the code</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="project-screen" id="restorationstation">
+            <div class="project-details">
+              <div class="project-text">
+                <h1 class='project-title'>Restoration Station</h1>
+                <br>
+                <p>Angular 2 and firebase site for managing and tracking watershed restoration crews.</p>
+                <p><a href='https://restoration-station.firebaseapp.com/' target='_blank'>Experience the Site</a></p>
+                <p><a href="https://github.com/gravytates/restoration-station" target='_blank'>View the code</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="project-screen" id="gradysgames">
+            <div class="project-details">
+              <div class="project-text">
               <h1 class='project-title'>Grady's Games</h1>
-              <p>Experience the Site</p>
-              <p>View the code</p>
+              <br>
+              <p>Authenticated Rails site to view, create and manage video game reviews.</p>
+              <p><a href="https://gradys-games.herokuapp.com" target='_blank'>Experience the Site</a></p>
+              <p><a href="https://github.com/gravytates/gradys_games" target='_blank'>View the code</a></p>
+              </div>
             </div>
           </div>
-
-        </div>
-
-        <div class="project-row">
-          <div class="project-screenshot" id='universityapi'>
-
-              <h1 id='university-api-title'><b>University API</b>
-              </h1>
-
-            <div class="university-details">
-              <h1 class='project-title'>University API</h1>
-              <p>View the code</p>
-            </div>
-          </div>
-
-          <div class="project-screenshot" id='carbonestimator'>
+          <div class="project-screen" id="universityapi">
             <div class="project-details">
-              <h1 class='project-title'>Carbon Estimator</h1>
-              <p>Experience the Site</p>
-              <p>View the code</p>
+              <div class="project-text">
+                <h1 class='project-title'>University API</h1>
+                <br>
+                <p>JWT Authenticated API built in Ruby to return a database of Universities and their Reviews.</p>
+                <p><a href="https://github.com/gravytates/university_api" target='_blank'>View the code</a></p>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
+      <div class="gutter">
+        <div class="technologies">
+          <h2 id='technologies-header'>Technologies</h2>
 
-      <div id="technology-section">
-        <h2 id='technologies-title'>Technologies</h2>
-      </div>
+          <div class="technology-categories">
 
-      <div id="background-section">
-        <!-- About Me section: header and four rows, three columns each (two are blank for spacing) -->
-        <h2 id="background-title">Background</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <p class='paragraph'>
-                 Appreciating natural beauty around me has always been second nature. Growing up in Portland and graduating from Portland State University with a degree in Environmental Sciences, I have immense passion to not only appreciate these environments, but to share them through my work. In combining art, science, and programming, I always devote the time and care necessary to realize the project's vision and give the justice my applications and clients deserve.
-              </p>
-              <p class='paragraph'>
-                As a primarily back-end developer, my applications always aim to be as efficient, beautiful, and valuable as possible. My current areas of specialization include eCommerce, API development, Data Visualization, Mapping, and Statistical Analysis. I am always learning and refining my craft.
-              </p>
+
+            <div class="technology-category">
+              <img src='img/png/012-coding.png' alt="">
+              <h3>Languages
+              </h3>
+              <p>Ruby</p>
+              <p>Javascript</p>
+              <p>Python</p>
+              <p>HTML/CSS/SASS</p>
+              <p>Jade</p>
+              <p>R</p>
             </div>
-            <div class="col-md-6">
-                <img id="portrait" src="img/meCircle.jpg" alt="my dear heart painting">
+            <div class="technology-category">
+              <img src='img/png/005-browser-1.png' alt="">
+              <h3>Frameworks</h3>
+              <p>Rails</p>
+              <p>Angular 2+</p>
+              <p>React-Native</p>
+              <p>Ember</p>
+              <p>Django</p>
+              <p>Express</p>
             </div>
-            <h2 id='clincher'>Let's get to work.</h2>
+            <div class="technology-category">
+              <img src='img/png/015-screen.png' alt="">
+              <h3>Cloud</h3>
+              <p>Heroku</p>
+              <p>AWS S3</p>
+              <p>AWS EC2</p>
+              <p>AWS Elastic Beanstalk</p>
+              <p>AWS Lambda</p>
+            </div>
+            <div class="technology-category">
+              <img src='img/png/010-hierarchical-structure.png' alt="">
+              <h3>Databases</h3>
+              <p>SQL</p>
+              <p>PostgreSQL</p>
+              <p>SQLite</p>
+              <p>Firebase</p>
+              <p>NoSQL</p>
+            </div>
+            <div class="technology-category">
+              <img src='img/png/009-browser.png' alt="">
+              <h3>Testing</h3>
+              <p>RSpec</p>
+              <p>Capybara</p>
+              <p>Poltergeist</p>
+              <p>PhantomJS</p>
+              <p>Jasmine</p>
+              <p>Karma</p>
+            </div>
+            <div class="technology-category">
+              <img src='img/png/011-responsive.png' alt="">
+              <h3>Libraries</h3>
+              <p>React</p>
+              <p>Redux</p>
+              <p>D3.js</p>
+              <p>Nokogiri</p>
+              <p>OmniAuth</p>
+              <p>Devise</p>
+            </div>
+            <div class="technology-category">
+              <img src='img/png/013-app.png' alt="">
+              <h3>Bonus Tech</h3>
+              <p>REST API</p>
+              <p>Node.js</p>
+              <p>Chartkick</p>
+              <p>Typescript</p>
+              <p>ArcMap/ArcGIS</p>
+            </div>
+            <div class="technology-category">
+              <img src='img/png/008-checking.png' alt="">
+              <h3>Workflow</h3>
+              <p>Git</p>
+              <p>JIRA</p>
+              <p>AGILE</p>
+              <p>Trello</p>
+              <p>Slack</p>
+              <p>Excel</p>
+              <p>HipChat</p>
+            </div>
           </div>
         </div>
+        <div class="background">
+          <h2>Background</h2>
+          <div class='portrait-div'>
+            <img id="portrait" src="img/meBabyRound2.jpg" alt="my dear heart painting">
+          </div>
+          <p>I’m a Ruby and Javascript developer originating from the Portland area. My experience in environmental science has given me a great love for data driven projects, while my background in painting reminds me to be thoughtful and expressive in all forms of communication. I find code to be an empowering intersection of art and functionality, and I love my projects to represent these pillars of society. </p>
+
+        </div>
+        <div class="connect">
+          <h2>Connect</h2>
+          <p class='connect-text'>Let's get to work!</p>
+          <div class="icons">
+            <a href="https://www.facebook.com/gradyish/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+
+            <a href="https://github.com/gravytates" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+
+            <a href="https://www.instagram.com/gradyish/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>
+
+            <a href="https://www.linkedin.com/in/grady-shelton-467aaab3/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+          </div>
+          <form action="https://formspree.io/gradyish@gmail.com"
+                method="POST">
+
+              <input type="text" name="Submitter" value placeholder="Name">
+              <br>
+              <input type="email" name="_replyto" value placeholder="Email">
+              <br>
+              <textarea name="Message" placeholder="Message"></textarea>
+              <br>
+              <input id="send" type="submit" value="Send">
+          </form>
+        </div>
       </div>
-
-      <!-- End-tag -->
-
-      <div id="contact-section">
-
-        <!-- <h2 id="contact-title">Let's talk.</h2> -->
-
-        <ul id='contact-nav'>
-          <!-- <li class='contact-option'>
-            <img src="img/phone.png" alt="phone">
-            <p class='contact-text'>503-724-8908</p></li> -->
-          <li class='contact-option'>
-            <img src="img/mail.png" alt="email">
-            <p class='contact-text'>gradyish@gmail.com</p></li>
-          <li class='contact-option'>
-            <a href="https://www.linkedin.com/in/grady-shelton-467aaab3/" target="_blank"><img src="img/linkedin.png" alt="linkedin"></a>
-            <p class='contact-text'>linkedin.com/in/grady-shelton</p></li>
-          <li class='contact-option'>
-            <a href="https://github.com/gravytates" target="_blank"><img src="img/github.png" alt="github"></a>
-            <p class='contact-text'>github.com/gravytates</p></li>
-        </ul>
+    </div>
+    <div id='nav'>
+      <div class='nav-option' id='project-scroll-link'><p>Projects</p></div>
+      <div class='nav-option' id='technology-scroll-link'><p>Technologies</p></div>
+      <div class='nav-option' id='background-scroll-link'><p>Background</p></div>
+      <div class='nav-option' id='connect-scroll-link'>
+        <p>Connect</p>
       </div>
-
-      <p id="foot">Grady L. Shelton 2017</p>
-
     </div>
   </body>
 </html>
