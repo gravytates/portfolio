@@ -9,9 +9,9 @@ $(document).ready(function(){
   //initial fade in of mast head and header elements
   $(window).ready(function() {
     $('.masthead').fadeIn(2000);
-    $('#masthead-subtext').fadeIn(5000);
-    $("#developer").fadeIn(6000);
-    $('.jumbotron').fadeIn(4000);
+    $('#masthead-subtext').fadeIn(3000);
+    $("#developer").fadeIn(3500);
+    $('.jumbotron').fadeIn(2500);
   });
 
 
