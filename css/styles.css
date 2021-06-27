@@ -23,7 +23,7 @@ body {
 .jumbo {
   background-color: #51799C;
   background-image: linear-gradient(#51799C, #f9f9f9);
-  height: 100vh;
+  height: 50vh;
 
 
   /* these will reset other properties, like background-position, but it does know what you mean */
