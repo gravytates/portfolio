@@ -103,12 +103,14 @@ li {
 }
 
 .projects a {
-  color: #51799C;
+  color: #314a60;
+
+  &:hover {
+    color: #51799C;
+    text-decoration: underline;
+  }
 }
 
-.projects a:hover {
-  color: #B3C4D8;
-}
 
 .technologies h2 {
   margin-left: 6%;
