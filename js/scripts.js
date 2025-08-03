@@ -52,6 +52,15 @@ $(document).ready(function(){
     $(this).children('.project-details').slideToggle();
   });
 
+  // show and hide project details upon tab
+  $('.project-screen').focusin(function() {
+    $(this).children('.project-details').slideDown();
+  });
+
+  // show and hide project details upon click
+  $('.project-screen').click(function() {
+      $(this).children('.project-details').slideDown();
+  });
 
   // separate function for university api due to it's header element
 
