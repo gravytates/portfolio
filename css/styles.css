@@ -1,11 +1,10 @@
 * {
-  /*border: 0.3px solid red;*/
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 30px;
   letter-spacing: 0.5px;
@@ -17,16 +16,14 @@ body {
   display: none;
 }
 
-h2 {
+/* h2 {
   text-transform: uppercase;
-}
+} */
 
 .jumbo {
   background-color: #51799C;
-
-  /* will be "on top", if browser supports it */
   background-image: linear-gradient(#51799C, #f9f9f9);
-  height: 100vh;
+  height: 65vh;
 
 
   /* these will reset other properties, like background-position, but it does know what you mean */
@@ -87,8 +84,12 @@ h2 {
 }
 
 h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Benne', sans-serif;
   font-weight: normal;
+}
+
+li {
+  list-style-type: none;
 }
 
 .projects, .technology-categories {
@@ -96,7 +97,7 @@ h1, h2, h3 {
   margin-right: 6%;
 }
 
-#projects-header {
+.projects-header {
   margin-top: 80px;
   margin-bottom: 20px;
 }
@@ -226,7 +227,7 @@ h1, h2, h3 {
   /*padding-top: 10%;*/
   color: #f9f9f9;
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .project-text {
@@ -369,7 +370,7 @@ h1, h2, h3 {
 
 input {
   width: 65%;
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
   font-size: 12pt;
   letter-spacing: 0.5px;
   padding: 10px;
@@ -386,7 +387,7 @@ input {
 
 .connect form textarea {
   width: 65%;
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
   font-size: 12pt;
   letter-spacing: 0.5px;
   padding: 10px;
@@ -425,7 +426,7 @@ input {
   }
 
   body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0.5px;
