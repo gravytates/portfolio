@@ -8,10 +8,8 @@ if (_isOS) {
 $(document).ready(function(){
   //initial fade in of mast head and header elements
   $(window).ready(function() {
-    $('.masthead').fadeIn(2000);
-    $('#masthead-subtext').fadeIn(3000);
-    $("#developer").fadeIn(3500);
-    $('.jumbotron').fadeIn(2500);
+    $('.masthead').fadeIn(500);
+    $("#developer").fadeIn(800);
   });
 
 
