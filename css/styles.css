@@ -45,7 +45,7 @@ body {
 
 .masthead {
   padding-top: 15vh;
-  display: none;
+  /* display: none; */
   text-align: center;
   margin-left: 6%;
   margin-right: 6%;
@@ -62,7 +62,7 @@ body {
 }
 
 #developer {
-  display: none;
+  /* display: none; */
   letter-spacing: 5px;
   text-transform: lowercase;
 }
@@ -177,7 +177,7 @@ li {
 .lunchwith-screen {
   border: 0.1px solid #f9f9f9;
   height: 57vh;
-  width: 260px;
+  width: auto;
   margin-top: 10px;
   margin-bottom: 20px;
   display: -webkit-box;
@@ -287,6 +287,10 @@ li {
   margin-right: 6%;
   margin-top: 30px;
   border: 0.1px solid rgba(255,255,255,0.01);
+
+  a {
+    color: #314a60;
+  }
 }
 
 .background h2 {

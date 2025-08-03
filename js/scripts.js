@@ -7,10 +7,10 @@ if (_isOS) {
 
 $(document).ready(function(){
   //initial fade in of mast head and header elements
-  $(window).ready(function() {
-    $('.masthead').fadeIn(500);
-    $("#developer").fadeIn(800);
-  });
+  // $(window).ready(function() {
+  //   $('.masthead').fadeIn(500);
+  //   $("#developer").fadeIn(800);
+  // });
 
 
 
