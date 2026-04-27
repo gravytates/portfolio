@@ -1,5 +1,3 @@
-import { ContactForm } from './ContactForm'
-
 export function ConnectSection() {
   return (
     <section id="connect" className="py-20 px-6 pb-28 bg-white">
@@ -47,7 +45,38 @@ export function ConnectSection() {
           </a>
         </div>
 
-        <ContactForm />
+        <form
+          action="https://formspree.io/f/xknpnaoz"
+          method="POST"
+          className="space-y-4 max-w-md"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            className="w-full border border-zinc-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#51799c]/40 focus:border-[#51799c]"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+            className="w-full border border-zinc-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#51799c]/40 focus:border-[#51799c]"
+          />
+          <textarea
+            name="message"
+            placeholder="Message"
+            rows={5}
+            required
+            className="w-full border border-zinc-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#51799c]/40 focus:border-[#51799c] resize-y"
+          />
+          <button
+            type="submit"
+            className="bg-[#51799c] text-white px-6 py-2.5 rounded-lg text-sm font-medium hover:bg-[#314a60] transition-colors"
+          >
+            Send
+          </button>
+        </form>
       </div>
     </section>
   )
