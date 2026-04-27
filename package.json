@@ -10,6 +10,7 @@
     "typecheck": "NODE_OPTIONS='' tsc --noEmit"
   },
   "dependencies": {
+    "@formspree/react": "^3.0.0",
     "@supabase/ssr": "^0.10.2",
     "@supabase/supabase-js": "^2.104.1",
     "@tiptap/core": "^3.22.4",
