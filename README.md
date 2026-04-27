@@ -1,37 +1,36 @@
-# _Grady L Shelton Portfolio_
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-#### _Portfolio Project: week 1 code review for intro into programming at Epicodus_
+## Getting Started
 
-#### By _Grady L Shelton_
+First, run the development server:
 
-![homepage screenshot](/img/homepage.png)
-## Description
-Visit the site here: https://gravytates.github.io/portfolio
-_This is a single webpage for my personal portfolio. It goes over my recent projects, and includes an about me section highlighting my past education, work experience, my decision to enter programming, and outside interests. It was built under the bootstrap.css framework and utilizes some of its more prominent classes such as jumbotron, rows, columns, panels, and wells. My content contains numerous links to external webpages: either recent projects, or additional information in the 'about me' section._
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Screenshot of projects
-![projects screenshot](/img/projects.png)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Setup/Installation Requirements
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-* _Site is viewable at https://gravytates.github.io/portfolio. If you would prefer cloning the webpage to your local machine:_
-* _Clone repository using "https://github.com/gravytates/portfolio.git"_
-* _Open 'portfolio' folder_
-* _Open 'index.html' file_
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Known Bugs
+## Learn More
 
-_There are no known bugs at this time._
+To learn more about Next.js, take a look at the following resources:
 
-## Support and contact details
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-_Please contact Grady L Shelton at gradyish@gmail.com if you have any questions or need any support._
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Technologies Used
+## Deploy on Vercel
 
-_Webpage is built with HTML and CSS, specifically with the bootstrap.css file/framework, and an additional custom css file._
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### License
-
-Copyright (c) 2017 Grady L Shelton.
-This software is licensed under the MIT license.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

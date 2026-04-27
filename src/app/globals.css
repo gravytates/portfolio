@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme inline {
+  /* Brand palette from original portfolio */
+  --color-brand-blue: #51799c;
+  --color-brand-blue-dark: #314a60;
+  --color-brand-cream: #f9f9f9;
+
+  /* Fonts — will be wired to Google Fonts in layout.tsx */
+  --font-sans: var(--font-roboto);
+  --font-serif: var(--font-benne);
+  --font-mono: var(--font-geist-mono);
+}
