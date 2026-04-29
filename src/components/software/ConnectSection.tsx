@@ -46,7 +46,7 @@ export function ConnectSection() {
         </div>
 
         <form
-          action="https://formspree.io/f/xknpnaoz"
+          action="https://formspree.io/f/gradyish@gmail.com"
           method="POST"
           className="space-y-4 max-w-md"
         >

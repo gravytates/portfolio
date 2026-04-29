@@ -21,7 +21,7 @@ values
     'Gemini × Nifty Gateway',
     'Gemini',
     'Art marketplace platform — wallets, accounts, and NFT purchasing experience for Gemini''s digital art subsidiary Nifty Gateway.',
-    'https://www.niftygateway.com/',
+    'https://www.gemini.com/',
     array['React', 'TypeScript', 'GraphQL', 'Node.js'],
     20, true, true
   ),
