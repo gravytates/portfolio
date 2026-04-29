@@ -25,10 +25,11 @@ export default async function SoftwarePage() {
     <main>
       {/* Hero */}
       <section
-        className="relative h-[60vh] min-h-[400px] flex items-center justify-center bg-[#314a60] overflow-hidden"
+        id="hero"
+        className="relative h-[60vh] min-h-[400px] flex items-center justify-center bg-brand-blue-dark overflow-hidden"
         style={{ backgroundImage: 'url(/projects/whitemountains.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
-        <div className="absolute inset-0 bg-[#314a60]/60" />
+        <div className="absolute inset-0 bg-brand-blue-dark/60" />
         <div className="relative text-center text-white px-6">
           <h1 className="font-serif text-6xl md:text-7xl tracking-tight mb-3">GRADY SHELTON</h1>
           <p className="text-lg text-zinc-300 tracking-widest uppercase font-light">

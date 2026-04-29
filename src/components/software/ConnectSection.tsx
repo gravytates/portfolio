@@ -2,8 +2,8 @@ export function ConnectSection() {
   return (
     <section id="connect" className="py-20 px-6 pb-28 bg-white">
       <div className="max-w-3xl mx-auto">
-        <h2 className="font-serif text-4xl text-[#314a60] mb-3">Connect</h2>
-        <p className="text-[#51799c] mb-8 text-lg">Let&apos;s get to work.</p>
+        <h2 className="font-serif text-4xl text-brand-blue-dark mb-3">Connect</h2>
+        <p className="text-brand-blue mb-8 text-lg">Let&apos;s get to work.</p>
 
         <div className="flex gap-5 mb-10">
           <a
@@ -11,7 +11,7 @@ export function ConnectSection() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            className="text-[#314a60] hover:text-[#51799c] transition text-3xl"
+            className="text-brand-blue-dark hover:text-brand-blue transition text-3xl"
           >
             {/* GitHub SVG */}
             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 fill-current">
@@ -24,7 +24,7 @@ export function ConnectSection() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
-            className="text-[#314a60] hover:text-[#51799c] transition"
+            className="text-brand-blue-dark hover:text-brand-blue transition"
           >
             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 fill-current">
               <title>Instagram</title>
@@ -36,7 +36,7 @@ export function ConnectSection() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="text-[#314a60] hover:text-[#51799c] transition"
+            className="text-brand-blue-dark hover:text-brand-blue transition"
           >
             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 fill-current">
               <title>LinkedIn</title>
@@ -54,25 +54,25 @@ export function ConnectSection() {
             type="text"
             name="name"
             placeholder="Name"
-            className="w-full border border-zinc-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#51799c]/40 focus:border-[#51799c]"
+            className="w-full border border-zinc-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-blue/40 focus:border-brand-blue"
           />
           <input
             type="email"
             name="email"
             placeholder="Email"
             required
-            className="w-full border border-zinc-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#51799c]/40 focus:border-[#51799c]"
+            className="w-full border border-zinc-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-blue/40 focus:border-brand-blue"
           />
           <textarea
             name="message"
             placeholder="Message"
             rows={5}
             required
-            className="w-full border border-zinc-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#51799c]/40 focus:border-[#51799c] resize-y"
+            className="w-full border border-zinc-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-blue/40 focus:border-brand-blue resize-y"
           />
           <button
             type="submit"
-            className="bg-[#51799c] text-white px-6 py-2.5 rounded-lg text-sm font-medium hover:bg-[#314a60] transition-colors"
+            className="bg-brand-blue text-white px-6 py-2.5 rounded-lg text-sm font-medium hover:bg-brand-blue-dark transition-colors"
           >
             Send
           </button>

@@ -21,11 +21,11 @@ export function WorkProjects({ projects }: WorkProjectsProps) {
   return (
     <section id="projects" className="py-20 px-6 bg-[#f9f9f9]">
       <div className="max-w-3xl mx-auto">
-        <h2 className="font-serif text-4xl text-[#314a60] mb-12">Projects</h2>
+        <h2 className="font-serif text-4xl text-brand-blue-dark mb-12">Projects</h2>
         <div className="space-y-12">
           {workProjects.map((project) => (
             <div key={project.id}>
-              <h3 className="font-serif text-2xl text-[#314a60] mb-3">
+              <h3 className="font-serif text-2xl text-brand-blue-dark mb-3">
                 {project.employer}
               </h3>
               {project.slug === 'instrument' ? (
@@ -33,13 +33,13 @@ export function WorkProjects({ projects }: WorkProjectsProps) {
                 <ul className="space-y-2 text-zinc-700 leading-relaxed">
                   {INSTRUMENT_CLIENTS.map((client) => (
                     <li key={client.url} className="flex gap-2">
-                      <span className="text-[#51799c] mt-1 select-none">–</span>
+                      <span className="text-brand-blue mt-1 select-none">–</span>
                       <span>
                         <a
                           href={client.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[#51799c] hover:underline font-medium"
+                          className="text-brand-blue hover:underline font-medium"
                         >
                           {client.name}
                         </a>
@@ -56,7 +56,7 @@ export function WorkProjects({ projects }: WorkProjectsProps) {
                       href={project.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-[#51799c] hover:underline"
+                      className="text-sm text-brand-blue hover:underline"
                     >
                       Visit site →
                     </a>

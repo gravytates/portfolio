@@ -19,6 +19,13 @@ export async function middleware(request: NextRequest) {
       return NextResponse.redirect(new URL('/auth/login', request.url))
     }
 
+    // Email allowlist — only explicitly permitted addresses may access admin
+    const allowedEmails = process.env.ADMIN_ALLOWED_EMAILS?.split(',').map((e) => e.trim()) ?? []
+    if (allowedEmails.length > 0 && !allowedEmails.includes(session.user.email ?? '')) {
+      await supabase.auth.signOut()
+      return NextResponse.redirect(new URL('/auth/login', request.url))
+    }
+
     // Fetch role — belt-and-suspenders beyond RLS
     const { data: profile } = await supabase
       .from('profiles')

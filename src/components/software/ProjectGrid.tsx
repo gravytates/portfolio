@@ -14,7 +14,7 @@ export function ProjectGrid({ projects }: ProjectGridProps) {
   return (
     <section className="py-12 px-6 bg-[#f9f9f9]">
       <div className="max-w-5xl mx-auto">
-        <h3 className="font-serif text-2xl text-[#314a60] mb-8">
+        <h3 className="font-serif text-2xl text-brand-blue-dark mb-8">
           Personal &amp; Freelance
         </h3>
 

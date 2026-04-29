@@ -39,7 +39,7 @@ export function SoftwareNav() {
       className="fixed bottom-0 inset-x-0 z-50 hidden sm:flex justify-center"
       aria-label="Section navigation"
     >
-      <div className="flex gap-1 mb-4 bg-[#314a60]/95 backdrop-blur-sm rounded-full px-3 py-2 shadow-lg border border-white/10">
+      <div className="flex gap-1 mb-4 bg-brand-blue-dark/95 backdrop-blur-sm rounded-full px-3 py-2 shadow-lg border border-white/10">
         {NAV_ITEMS.map((item) => {
           const isActive = activeSection === item.href.slice(1)
           return (
@@ -49,7 +49,7 @@ export function SoftwareNav() {
               className={`
                 px-4 py-1.5 rounded-full text-sm font-medium transition-colors
                 ${isActive
-                  ? 'bg-[#51799c] text-white'
+                  ? 'bg-brand-blue text-white'
                   : 'text-zinc-300 hover:text-white hover:bg-white/10'
                 }
               `}

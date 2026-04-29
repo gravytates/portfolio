@@ -4,7 +4,7 @@ export function BackgroundSection() {
   return (
     <section id="background" className="py-20 px-6 bg-[#f9f9f9]">
       <div className="max-w-3xl mx-auto">
-        <h2 className="font-serif text-4xl text-[#314a60] mb-8">Background</h2>
+        <h2 className="font-serif text-4xl text-brand-blue-dark mb-8">Background</h2>
         <div className="flex flex-col sm:flex-row gap-8 items-start">
           <div className="flex-shrink-0">
             <Image
@@ -12,14 +12,14 @@ export function BackgroundSection() {
               alt="Grady Shelton"
               width={160}
               height={160}
-              className="rounded-full object-cover w-36 h-36 sm:w-40 sm:h-40 border-2 border-[#51799c]/20"
+              className="rounded-full object-cover w-36 h-36 sm:w-40 sm:h-40 border-2 border-brand-blue/20"
             />
           </div>
           <div className="space-y-4 text-zinc-700 leading-relaxed">
             <p>
               I'm a fullstack, if mostly front–end, product developer and tech lead. Most recently I've been
               gainfully employed by{' '}
-              <a href="https://www.noviconnect.com/" target="_blank" rel="noopener noreferrer" className="text-[#51799c] hover:underline">
+              <a href="https://www.noviconnect.com/" target="_blank" rel="noopener noreferrer" className="text-brand-blue hover:underline">
                 Novi
               </a>
               , based in Portland, OR.

@@ -16,9 +16,9 @@ export function PersonalProjectCard({ project }: PersonalProjectCardProps) {
     <div
       className={`
         relative rounded-xl overflow-hidden cursor-pointer select-none
-        aspect-[4/3] bg-[#314a60] border border-[#51799c]/20
+        aspect-[4/3] bg-brand-blue-dark border border-brand-blue/20
         transition-shadow duration-200
-        hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#51799c]
+        hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue
       `}
       tabIndex={0}
       role="button"
@@ -60,7 +60,7 @@ export function PersonalProjectCard({ project }: PersonalProjectCardProps) {
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
-              className="text-xs text-[#51799c] bg-white/10 hover:bg-white/20 rounded px-3 py-1.5 transition"
+              className="text-xs text-brand-blue bg-white/10 hover:bg-white/20 rounded px-3 py-1.5 transition"
             >
               View code →
             </a>
@@ -82,7 +82,7 @@ export function PersonalProjectCard({ project }: PersonalProjectCardProps) {
       {/* Title strip (visible when not revealed) */}
       <div
         className={`
-          absolute bottom-0 inset-x-0 bg-gradient-to-t from-[#314a60]/90 to-transparent
+          absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-blue-dark/90 to-transparent
           px-4 py-3 transition-opacity duration-300
           ${revealed ? 'opacity-0' : 'opacity-100'}
         `}
