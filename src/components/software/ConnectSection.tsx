@@ -50,6 +50,7 @@ export function ConnectSection() {
           method="POST"
           className="space-y-4 max-w-md"
         >
+          <input type="hidden" name="_next" value="https://gradyshelton.com/software#connect" />
           <input
             type="text"
             name="name"
