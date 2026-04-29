@@ -23,8 +23,8 @@ function revalidateWriting(slug?: string, type?: string) {
   revalidatePath('/writing', 'layout')
   if (slug) revalidatePath(`/writing/${slug}`)
   if (type === 'book-review') revalidatePath('/writing/book-reviews')
-  if (type === 'novel-update') revalidatePath('/writing/novel-updates')
-  if (type === 'essay') revalidatePath('/writing/essays')
+  if (type === 'novel-update') revalidatePath('/writing/updates')
+  if (type === 'essay') revalidatePath('/writing/writings')
 }
 
 async function getAuthedClient() {

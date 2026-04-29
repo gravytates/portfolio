@@ -7,7 +7,7 @@ import Link from 'next/link'
  */
 export default function HubPage() {
   return (
-    <main className="flex flex-1 flex-col items-center justify-center gap-12 px-6 py-24 bg-[#f9f9f9]">
+    <main className="flex flex-1 flex-col items-center justify-center gap-12 px-6 py-24 bg-brand-cream">
       <header className="text-center">
         <h1 className="font-serif text-5xl text-brand-blue-dark mb-3">Grady Shelton</h1>
         <p className="text-lg text-brand-blue">Developer & Writer — Portland, OR</p>

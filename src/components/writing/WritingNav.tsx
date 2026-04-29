@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 const FILTERS = [
   { href: '/writing', label: 'All' },
-  { href: '/writing/essays', label: 'Essays' },
+  { href: '/writing/updates', label: 'Updates' },
+  { href: '/writing/writings', label: 'Writings' },
   { href: '/writing/book-reviews', label: 'Book Reviews' },
-  { href: '/writing/novel-updates', label: 'Novel Updates' },
 ] as const
 
 interface WritingNavProps {

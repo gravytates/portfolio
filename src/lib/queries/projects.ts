@@ -1,4 +1,5 @@
 import { createClient } from '@/lib/supabase/server'
+import { createStaticClient } from '@/lib/supabase/static'
 import { mapProject } from '@/lib/utils/mappers'
 import type { Project } from '@/types/domain'
 import type { ProjectListParams } from '@/types/api'
@@ -63,10 +64,11 @@ export async function getProjectBySlug(slug: string): Promise<Project | null> {
 }
 
 /**
- * Fetch only slugs — used for generateStaticParams.
+ * Fetch only slugs — used for generateStaticParams and sitemap.
+ * Uses cookie-free client since it runs at build time.
  */
 export async function getProjectSlugs(): Promise<{ slug: string }[]> {
-  const supabase = await createClient()
+  const supabase = createStaticClient()
 
   const { data } = await supabase
     .from('projects')

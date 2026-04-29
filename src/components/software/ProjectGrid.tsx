@@ -12,7 +12,7 @@ export function ProjectGrid({ projects }: ProjectGridProps) {
   const gridProjects = personalProjects.filter((p) => p.slug !== 'lunchwith')
 
   return (
-    <section className="py-12 px-6 bg-[#f9f9f9]">
+    <section className="py-12 px-6 bg-brand-cream">
       <div className="max-w-5xl mx-auto">
         <h3 className="font-serif text-2xl text-brand-blue-dark mb-8">
           Personal &amp; Freelance

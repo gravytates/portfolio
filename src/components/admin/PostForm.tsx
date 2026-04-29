@@ -17,7 +17,7 @@ interface PostFormProps {
 
 const POST_TYPES: { value: PostType; label: string }[] = [
   { value: 'book-review', label: 'Book Review' },
-  { value: 'novel-update', label: 'Novel Update' },
+  { value: 'novel-update', label: 'Update' },
   { value: 'essay', label: 'Essay' },
 ]
 

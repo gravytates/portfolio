@@ -7,8 +7,8 @@ interface PostCardProps {
 
 const TYPE_LABELS: Record<Post['type'], string> = {
   'book-review': 'Book Review',
-  'novel-update': 'Novel Update',
-  'essay': 'Essay',
+  'novel-update': 'Update',
+  'essay': 'Writing',
 }
 
 function formatDate(date: Date): string {

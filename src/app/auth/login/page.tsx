@@ -15,7 +15,7 @@ export default function LoginPage() {
 
   if (state?.sent) {
     return (
-      <main className="min-h-screen flex items-center justify-center bg-[#f9f9f9] px-6">
+      <main className="min-h-screen flex items-center justify-center bg-brand-cream px-6">
         <div className="max-w-sm w-full text-center space-y-3">
           <div className="text-3xl">✉️</div>
           <h1 className="font-serif text-2xl text-brand-blue-dark">Check your inbox</h1>
@@ -28,7 +28,7 @@ export default function LoginPage() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-[#f9f9f9] px-6">
+    <main className="min-h-screen flex items-center justify-center bg-brand-cream px-6">
       <div className="max-w-sm w-full space-y-6">
         <header className="text-center">
           <h1 className="font-serif text-3xl text-brand-blue-dark mb-1">Admin</h1>

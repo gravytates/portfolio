@@ -19,7 +19,7 @@ export function WorkProjects({ projects }: WorkProjectsProps) {
   const workProjects = projects.filter((p) => p.employer !== null)
 
   return (
-    <section id="projects" className="py-20 px-6 bg-[#f9f9f9]">
+    <section id="projects" className="py-20 px-6 bg-brand-cream">
       <div className="max-w-3xl mx-auto">
         <h2 className="font-serif text-4xl text-brand-blue-dark mb-12">Projects</h2>
         <div className="space-y-12">
